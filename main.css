@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+}
+
+
+.bloc_1 {
+    background-image: url("images/microphone-2130806_1920.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+
+aside {
+    height: 65px;
+    width: 100%;
+    background-color: #0d0d0d;
+    display: flex;
+
+}
+
+.link_aside {
+    margin: auto;
+
+}
+
+a {
+    width: 100%;
+    display: flex;
+}
+
+a:link {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+a:hover {
+    color: #00b3b3;
+    border-bottom: solid 2px #00b3b3;
+    transition: 0.3s;
+    background-color: #1a1a1a;
+}
+
+
+.bloc_2 {
+    background-image: url("images/concert.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
